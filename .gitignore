@@ -1,8 +1,12 @@
 # Compiled binaries
 hello
+read_vars
 *.o
 *.so
 *.dylib
+
+# Debug symbols (macOS)
+*.dSYM/
 
 # Python
 __pycache__/
